@@ -1,1 +1,46 @@
+public class Professor {
+    // Atributos
+    private int matricula;
+    private String nomeProfessor;
+    private String nomeDepartamento;
 
+    // Construtor
+    public Professor(int matricula, String nomeProfessor, String nomeDepartamento) {
+        this.matricula = matricula;
+        this.nomeProfessor = nomeProfessor;
+        this.nomeDepartamento = nomeDepartamento;
+    }
+
+    // Métodos Getters (acesso)
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public String getNomeProfessor() {
+        return nomeProfessor;
+    }
+
+    public String getNomeDepartamento() {
+        return nomeDepartamento;
+    }
+
+    // Métodos Setters (modificação)
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public void setNomeProfessor(String nomeProfessor) {
+        this.nomeProfessor = nomeProfessor;
+    }
+
+    public void setNomeDepartamento(String nomeDepartamento) {
+        this.nomeDepartamento = nomeDepartamento;
+    }
+
+    // Método para imprimir o conteúdo dos atributos
+    public void imprimirProfessor() {
+        System.out.println("Matrícula: " + this.matricula);
+        System.out.println("Nome do Professor: " + this.nomeProfessor);
+        System.out.println("Nome do Departamento: " + this.nomeDepartamento);
+    }
+}
