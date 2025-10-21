@@ -1,4 +1,4 @@
-public class Principal {
+public class Main {
     public static void main(String[] args) {
         // Criação do objeto da classe Professor
         Professor professor1 = new Professor(101, "João da Silva", "Ciência da Computação");
